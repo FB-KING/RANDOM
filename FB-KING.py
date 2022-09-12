@@ -16,15 +16,15 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from a import check_update
+        from a import main
  
-        check_update()
+        main()
  
  
  
 elif bit == "32bit":
  
-        from a import check_update
+        from a import main
  
  
-        check_update()
+        main()
