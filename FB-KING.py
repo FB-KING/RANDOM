@@ -6,8 +6,8 @@ try:
  
 except:
  
-        os.system('pip2 install requests');time.sleep(2)
-        print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m');time.sleep(2)
+        os.system('pip2 install requests')
+
         os.system('xdg-open https://github.com/FB-KING')
  
  
