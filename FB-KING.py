@@ -14,7 +14,7 @@ if bit=='64bit':
 
     os.system('xdg-open https://github.com/FB-KING')
 
-    import a
+    import main
 
 else:
 
