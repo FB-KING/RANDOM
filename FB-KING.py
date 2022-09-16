@@ -3,7 +3,6 @@ import os, platform
 try:
  
         import requests
-  print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m')
  
 except:
  
