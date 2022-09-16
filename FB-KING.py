@@ -1,21 +1,33 @@
-import os,platform
-
-os.system('clear')
-
-print('[•] Checking Updates...')
-
-os.system('git pull')
-
+import os, platform
+ 
+try:
+ 
+        import requests
+ 
+except:
+ 
+        os.system('pip2 install requests')
+        print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m');time.sleep(2)
+        os.system('xdg-open https://github.com/FB-KING')
+ 
+ 
+ 
+import requests
+ 
 bit = platform.architecture()[0]
-
-if bit=='64bit':
-
-    print('\033[1;32m[•] Congrats! Your Device Support This Tools \033[1;37m')
-
-    os.system('xdg-open https://github.com/FB-KING')
-
-    import main
-
-else:
-
-    exit('\033[1;31m[×] Sorry Device Not Support')
+ 
+if bit == "64bit":
+ 
+        from a import main
+ 
+        main()
+ 
+ 
+ 
+elif bit == "32bit":
+ 
+        from a import main
+ 
+ 
+        main()
+        
